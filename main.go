@@ -4,6 +4,6 @@ import (
 	"fmt"
 )
 
-func Main() {
-	fmt.Print(Fooer(19))
+func main() {
+	fmt.Print(Fooer(19) + "\n")
 }
