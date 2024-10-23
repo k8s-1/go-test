@@ -1,2 +1,2 @@
 #!/bin/bash
-go test ./... -cover -v
+go test ./... -cover -coverpkg -v
