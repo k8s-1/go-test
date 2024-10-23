@@ -36,6 +36,7 @@ func TestFooerTableDriven(t *testing.T) {
 }
 
 // RUN PARALLEL TESTS -> equal to number of cpu
+// The following code will test Fooer(3) and Fooer(7) at the same time
 func TestFooerParallel(t *testing.T) {
 	t.Run("Test 3 in Parallel", func(t *testing.T) {
 		t.Parallel()
