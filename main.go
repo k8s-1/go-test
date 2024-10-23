@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	fmt.Print(Fooer(19) + "\n")
+	fmt.Print(Fooer(18) + "\n")
 }
